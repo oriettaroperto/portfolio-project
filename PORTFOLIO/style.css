@@ -1,0 +1,186 @@
+img {
+ width: 100%;
+}
+
+p {
+  font-size: 24px;
+  color: black;
+  text-shadow: 2px 2px 4px  #bb99ff;
+  text-align: center;
+}
+
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid;
+}
+
+
+.container {
+  order: 1;
+  width: 80%;
+  text-align: right;
+}
+
+.title , .subtitle {
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 12px;
+}
+
+.image_logo {
+  order: 0;
+  width: 20%;
+}
+
+.subtitle {
+ text-align: right;
+}
+
+.works_list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.ftitle {
+  font-size: 30px;
+  line-height: 1.5em;
+  color: #bb99ff;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+
+.wbox {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* responsive*/
+/*Mobile - nexus 5*/
+
+@media screen and (min-width: 300px) and (max-width: 699px) {
+  .image_logo {
+    display: none;
+}
+
+  .title , .subtitle {
+    order: 1;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  body {
+    margin: 9px;
+  }
+
+  .content {
+   margin: 9px;
+  }
+
+  .ftitle {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .wbox {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 2px;
+  }
+}
+
+/*apple iPad*/
+@media screen and (min-width: 700px) and (min-width: 1020px) {
+  body {
+    margin: 30px;
+  }
+
+  .image_logo {
+    order: 0;
+    width: 20%;
+  }
+
+  .title , .subtitle {
+    order: 1;
+    width: 80%;
+  }
+
+  .content {
+    margin: 20px;
+  }
+
+  .ftitle {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .works_list {
+    display: flex;
+  }
+
+  .wimage {
+    height: 170px;
+    width: 170px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+  }
+}
+
+
+/*desktop*/
+@media screen and (min-width: 1021px) {
+  body {
+    margin: 20px;
+  }
+
+  .ftitle {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .wimage {
+    height: 170px;
+    width: 170px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  p {
+   text-align: center;
+  }
+
+  .title {
+    text-align: right;
+  }
+
+  .content {
+    margin: 20px;
+  }
+
+  .works_list {
+    display: flex;
+  }
+
+  .container {
+    width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
