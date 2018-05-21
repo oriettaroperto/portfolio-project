@@ -99,7 +99,7 @@ margin-left: 12px;
   .wbox {
     float: left;
     text-align: center;
-    width: 30%;
+    width: 100%;
     padding: 2px;
   }
 }
