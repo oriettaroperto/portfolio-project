@@ -17,7 +17,6 @@ header {
   border-bottom: 2px solid;
 }
 
-
 .container {
   order: 1;
   width: 80%;
@@ -25,9 +24,9 @@ header {
 }
 
 .title , .subtitle {
-margin-top: 0;
-margin-bottom: 0;
-margin-left: 12px;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 12px;
 }
 
 .image_logo {
@@ -56,7 +55,6 @@ margin-left: 12px;
     width: 100%;
     height: auto;
     align-items: center;
-
 }
 
 .wbox {
